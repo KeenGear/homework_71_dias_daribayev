@@ -1,0 +1,92 @@
+[
+{
+    "model": "insta_app.post",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "body": "Admin Post\"Updated\"",
+        "image": "uploads/user_1/136004002_w640_h640_0739-shokolad-snikers.jpg.webp",
+        "created_at": "2023-03-27T23:18:32.438Z",
+        "updated_at": "2023-03-27T23:18:32.438Z",
+        "author": 1,
+        "likes": [
+            5
+        ]
+    }
+},
+{
+    "model": "insta_app.post",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "body": "I'm Alive",
+        "image": "uploads/user_2/kennyOverlay_4187252f-a636-4aa2-a28e-42e6916b144b_1980x.png",
+        "created_at": "2023-03-28T03:00:15.833Z",
+        "updated_at": "2023-03-28T03:00:15.833Z",
+        "author": 2,
+        "likes": [
+            1,
+            5
+        ]
+    }
+},
+{
+    "model": "insta_app.post",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "body": "Web post",
+        "image": "/grey_background.jpg",
+        "created_at": "2023-03-27T18:00:37.899Z",
+        "updated_at": "2023-03-27T18:00:37.899Z",
+        "author": 1,
+        "likes": []
+    }
+},
+{
+    "model": "insta_app.post",
+    "pk": 4,
+    "fields": {
+        "user": 5,
+        "body": "Yoy people!!!",
+        "image": "/grey_background.jpg",
+        "created_at": "2023-03-27T19:42:28.286Z",
+        "updated_at": "2023-03-27T19:42:28.286Z",
+        "author": 1,
+        "likes": [
+            1
+        ]
+    }
+},
+{
+    "model": "insta_app.post",
+    "pk": 5,
+    "fields": {
+        "user": 5,
+        "body": "Tutanota",
+        "image": "uploads/user_5/pexels-ææ-e-2399840.jpg",
+        "created_at": "2023-03-28T03:08:02.010Z",
+        "updated_at": "2023-03-28T03:08:02.010Z",
+        "author": 5,
+        "likes": []
+    }
+},
+{
+    "model": "insta_app.post",
+    "pk": 6,
+    "fields": {
+        "user": 5,
+        "body": "aaaa",
+        "image": "user_5/pexels-willian.jpg",
+        "created_at": "2023-03-27T22:38:23.320Z",
+        "updated_at": "2023-03-27T22:38:23.320Z",
+        "author": 5,
+        "likes": [
+            1,
+            2,
+            4,
+            5
+        ]
+    }
+}
+]

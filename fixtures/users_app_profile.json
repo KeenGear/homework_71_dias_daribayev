@@ -1,0 +1,55 @@
+[
+{
+    "model": "users_app.profile",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "updated_at": "2023-03-27T20:41:24.604Z",
+        "profile_pic": "profile_pic/default-profile-picture.jpg",
+        "follows": [
+            1,
+            5,
+            2
+        ]
+    }
+},
+{
+    "model": "users_app.profile",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "updated_at": "2023-03-27T20:39:12.194Z",
+        "profile_pic": "profile_pic/kennyOverlay_4187252f-a636-4aa2-a28e-42e6916b144b_1980x.png",
+        "follows": [
+            2,
+            6
+        ]
+    }
+},
+{
+    "model": "users_app.profile",
+    "pk": 5,
+    "fields": {
+        "user": 4,
+        "updated_at": "2023-03-27T16:03:20.750Z",
+        "profile_pic": "",
+        "follows": [
+            5,
+            2
+        ]
+    }
+},
+{
+    "model": "users_app.profile",
+    "pk": 6,
+    "fields": {
+        "user": 5,
+        "updated_at": "2023-03-28T03:10:19.695Z",
+        "profile_pic": "profile_pic/thumb-190579.jpg",
+        "follows": [
+            6,
+            2
+        ]
+    }
+}
+]
