@@ -12,35 +12,6 @@ from .forms import PostForm, CommentForm
 from .models import Post
 
 
-# # Create your views here.
-#
-# class PostListView(FormMixin, ListView):
-#     model = Post
-#     form_class = PostForm
-#     template_name = 'post_list.html'
-#     context_object_name = 'posts'
-#
-#     def get(self, request, *args, **kwargs):
-#         self.object_list = self.get_queryset()
-#         form = self.get_form()
-#         return self.render_to_response(
-#             self.get_context_data(form=form)
-#         )
-#
-#     def post(self, request, *args, **kwargs):
-#         form = self.get_form()
-#         if form.is_valid():
-#             post = form.save(commit=False)
-#             post.user = request.user
-#             post.save()
-#             messages.success(request, 'posted successfully')
-#             return redirect('post_list')
-#         else:
-#             messages.error(request, 'failed to post')
-#             self.object_list = self.get_queryset()
-#             return self.render_to_response(
-#                 self.get_context_data(form=form)
-#             )
 class PostListView(ListView):
     model = Post
     template_name = 'post_list.html'
