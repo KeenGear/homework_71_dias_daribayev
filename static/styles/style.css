@@ -1,0 +1,54 @@
+.post-wrapper {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    padding: 20px 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+}
+
+.post-wrapper:hover .overlay {
+    opacity: 70%;
+}
+
+.post-body {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.post-body-2 {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.post-profile-image {
+    max-height: 35px;
+    max-width: 35px
+}
