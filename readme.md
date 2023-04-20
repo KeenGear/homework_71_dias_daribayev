@@ -62,7 +62,6 @@ Authorization: Token <your-token>
 ```
 To obtain a token, send a POST request to the api-token-auth endpoint with your superuser account credentials:
 ```
-POST /api/api-token-auth/
 {
     "username": "your-username",
     "password": "your-password"
@@ -70,7 +69,6 @@ POST /api/api-token-auth/
 ```
 The response will include your token:
 ```
-HTTP 200 OK
 {
     "token": "<your-token>"
 }
