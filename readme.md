@@ -70,8 +70,6 @@ POST /api/api-token-auth/
 ```
 The response will include your token:
 ```
-json
-Copy code
 HTTP 200 OK
 {
     "token": "<your-token>"
