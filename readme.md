@@ -8,11 +8,11 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/instagram-clone-api.git 
+git clone https://github.com/KeenGear/homework_71_dias_daribayev.git
 ```
 Install the project dependencies:
 ```
-cd instagram-clone-api
+cd homework_71_dias_daribayev
 pip install -r requirements.txt
 ```
 Run database migrations:
