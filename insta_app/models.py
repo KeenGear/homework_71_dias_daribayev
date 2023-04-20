@@ -12,12 +12,12 @@ def upload_to(instance, filename):
 
 # Create your models here.
 class Post(models.Model):
-    user = models.ForeignKey(User, related_name='insta_post', on_delete=models.DO_NOTHING)
+    user = models.ForeignKey(User, related_name='insta_post', on_delete=models.CASCADE)
     body = models.CharField(max_length=255)
     image = models.ImageField(upload_to=upload_to, default='/grey_background.jpg')
     created_at = models.DateTimeField(auto_now=True)
     updated_at = models.DateTimeField(auto_now=True)
-    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='posts', default='1')
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='posts')
     likes = models.ManyToManyField(User, related_name='liked_posts', blank=True)
 
     def __str__(self):

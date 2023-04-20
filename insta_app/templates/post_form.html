@@ -8,21 +8,9 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">{{ form.instance.pk|default:'New' }} Post</div>
-
                     <div class="card-body">
-                        <form method="POST" enctype="multipart/form-data">
+                        <form method="post" enctype="multipart/form-data">
                             {% csrf_token %}
-
-                            <div class="form-group">
-                                {{ form.image.label_tag }}
-                                {{ form.image }}
-                                {% if form.image.errors %}
-                                    {% for error in form.image.errors %}
-                                        <span class="text-danger">{{ error }}</span>
-                                    {% endfor %}
-                                {% endif %}
-                            </div>
-
                             <div class="form-group">
                                 {{ form.body.label_tag }}
                                 {{ form.body }}
@@ -33,9 +21,15 @@
                                 {% endif %}
                             </div>
                             <div class="form-group">
-                                <button type="submit"
-                                        class="btn btn-primary">{{ form.instance.pk|default:'Create' }}</button>
+                                {{ form.image.label_tag }}
+                                {{ form.image }}
+                                {% if form.image.errors %}
+                                    {% for error in form.image.errors %}
+                                        <span class="text-danger">{{ error }}</span>
+                                    {% endfor %}
+                                {% endif %}
                             </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>

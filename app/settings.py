@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users_app',
     'insta_app',
+    'api',
 ]
 
 MIDDLEWARE = [

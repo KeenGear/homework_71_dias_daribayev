@@ -25,7 +25,10 @@ class PostCreateView(LoginRequiredMixin, CreateView):
     success_url = reverse_lazy('post_list')
 
     def form_valid(self, form):
-        form.instance.author = self.request.user
+        post = form.save(commit=False)
+        post.author = self.request.user
+        post.user = self.request.user
+        post.save()
         return super().form_valid(form)
 
 
