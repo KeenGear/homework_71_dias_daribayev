@@ -4,12 +4,13 @@
     "pk": 1,
     "fields": {
         "user": 1,
-        "updated_at": "2023-03-27T20:41:24.604Z",
+        "updated_at": "2023-04-20T13:58:11.924Z",
         "profile_pic": "profile_pic/default-profile-picture.jpg",
         "follows": [
             1,
             5,
-            2
+            2,
+            6
         ]
     }
 },
