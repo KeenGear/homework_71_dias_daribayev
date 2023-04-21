@@ -36,22 +36,22 @@ The following API endpoints are available:
 ### GET /api/posts/ ###
 Returns a list of all posts.
 
-### POST /api/posts/ ###
+### POST /api/create-post/ ###
 Creates a new post.
 
-### GET /api/posts/<id>/ ###
+### GET /api/posts/<int:pk>/ ###
 Returns details for a specific post.
 
-### PUT /api/posts/<id>/ ###
+### PUT /api/posts/<int:pk>/update/ ###
 Updates a specific post.
 
-### DELETE /api/posts/<id>/ ###
+### DELETE /api/posts/<int:pk>/delete/ ###
 Deletes a specific post.
 
-### POST /api/posts/<id>/like/ ###
+### POST /api/like-post/<int:pk>/ ###
 Likes a specific post.
 
-### DELETE /api/posts/<id>/like/ ###
+### DELETE /api/like-post/<int:pk>/ ###
 Unlikes a specific post.
 
 ## Authentication ##
