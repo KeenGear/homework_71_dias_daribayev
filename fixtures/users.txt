@@ -1,1 +1,2 @@
 All passwords Vamsters2
+only admin "root"
