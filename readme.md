@@ -23,6 +23,12 @@ Create a superuser account:
 ```
 python manage.py createsuperuser
 ```
+Run fixtures:
+```
+python manage.py loaddata fixtures/auth.json
+python manage.py loaddata fixtures/insta.json
+python manage.py loaddata fixtures/users_app.json
+```
 Start the development server:
 ```
 python manage.py runserver
